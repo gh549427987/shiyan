@@ -103,6 +103,9 @@ for letter in iconset:
 
 count = 0
 
+print("--------------")
+print(imageset)
+print("--------------")
 for letter in letters:
     m = hashlib.md5()
     im3 = im2.crop((letter[0], 0, letter[1], im2.size[1]))
